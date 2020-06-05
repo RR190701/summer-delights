@@ -1,0 +1,13 @@
+.logo {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    display: block;
+    padding-top: 30px;
+    color: #333;
+}
+.logo img{
+    max-width:12% ;
+    max-height:12%;
+}

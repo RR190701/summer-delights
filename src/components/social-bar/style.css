@@ -1,0 +1,18 @@
+.social-bar{
+    font-family: 'Piedra', cursive;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.summer-delights {
+    color: rgb(253, 114, 33);
+    display: block;
+    text-transform: capitalize;
+    font-size: 25px;
+    
+}
+.social-icon a img{
+ width: 30px;
+ margin: 0 5px;
+ cursor: pointer;
+}
