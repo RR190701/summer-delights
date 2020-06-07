@@ -29,3 +29,9 @@
 .menu{
     padding: 5px 0;
 }
+
+@media(max-width:375px){
+    .menu li{
+    font-size: 14px; 
+}
+}

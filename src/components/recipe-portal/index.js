@@ -9,8 +9,7 @@ const RecipePortal = (props) => {
     return (<div className= "summer-food">
     { recipe.map((recipe)=>(
        
-     <Card 
-     style={{width: "30%", padding: "10px", margin: "5px"}}
+     <div className="summer-food-div"
      key = {recipe.id}>
      <h2 className="recipe-name">{recipe.recipeName}</h2>
      <div className= "recipe-image"> 
@@ -19,9 +18,12 @@ const RecipePortal = (props) => {
     <p>{recipe.cookingTime}</p>
     <p>{`" ${recipe.description} "`}</p>
     <NavLink to ={`/${recipe.data}/${recipe.id}`} className="see-more" >see more</NavLink>
-    </Card>
+    
+    </div>
+
     
     ))}
+    
     
 </div> );
 }

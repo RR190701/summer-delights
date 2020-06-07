@@ -5,6 +5,13 @@
     margin: auto;
     flex-wrap: wrap;
     padding-left: 13px;
+    box-sizing: border-box;
+}
+.summer-food-div {
+    width :30%;
+    padding: 10px; 
+    margin: 5px;
+    background-color: #fff;
 }
 .recipe-name {
     margin: 0;
@@ -36,4 +43,12 @@
 }
 .see-more:hover{
     color: rgb(253, 114, 33);
+}
+@media(max-width:375px){
+    .summer-food-div {
+        width :100%;
+        margin: 5px 0;
+        background-color: #fff;
+        margin-right: 15px;
+    }
 }

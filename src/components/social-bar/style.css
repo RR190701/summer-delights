@@ -16,3 +16,25 @@
  margin: 0 5px;
  cursor: pointer;
 }
+@media(max-width:375px){
+    .social-bar{
+        font-family: 'Piedra', cursive;
+        display: flex;
+        flex-direction: column;
+        padding:0;
+        text-align: center;
+    }
+    .summer-delights {
+        color: rgb(253, 114, 33);
+        display: block;
+        text-transform: capitalize;
+        font-size: 30px;
+        letter-spacing: 2px;
+        
+    }
+    .social-icon a img{
+        width: 25px;
+        margin:5px;
+        cursor: pointer;
+       }
+}

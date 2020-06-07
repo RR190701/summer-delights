@@ -31,3 +31,17 @@
     font-size: 20px;
     font-weight: 400;
 }
+@media(max-width:375px){
+    .recipe-quide p{
+        font-size: 16px;
+    }
+    .recipe-image-solo img {
+        width: 100%;
+        height: 100%;
+      }
+      .recipe-steps h2{
+        
+        font-size: 30px;
+        
+    }
+}

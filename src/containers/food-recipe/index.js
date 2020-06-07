@@ -15,17 +15,17 @@ const Recipe = (props) => {
   
     
 
-    return ( <div className = "recipe">
-         <Card style ={{width:"30%", backgroundColor : "rgb(253, 114, 33)", padding:"20px 0" }}>
+    return ( <div className = "re">
+         <div className="re-ingredient">
            <RecipeIngredient
            id ={Id}
            data={data}/>
-         </Card>
-         <Card style={{width : "69%", padding:"20px 0"}}>
+         </div>
+         <div className="re-steps" >
             <RecipeSteps
             id ={Id}
             data={data}/>
-         </Card>
+         </div>
     </div> );
 }
  
